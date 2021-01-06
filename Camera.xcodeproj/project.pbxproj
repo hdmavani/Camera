@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		0504FCCE243C671B009DA135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504FCCD243C671B009DA135 /* AppDelegate.swift */; };
-		0504FCD0243C671B009DA135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504FCCF243C671B009DA135 /* SceneDelegate.swift */; };
-		0504FCD2243C671B009DA135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504FCD1243C671B009DA135 /* ViewController.swift */; };
-		0504FCD5243C671B009DA135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0504FCD3243C671B009DA135 /* Main.storyboard */; };
 		0504FCD7243C671C009DA135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0504FCD6243C671C009DA135 /* Assets.xcassets */; };
 		0504FCDA243C671C009DA135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0504FCD8243C671C009DA135 /* LaunchScreen.storyboard */; };
+		0504FD10243C7195009DA135 /* BlankTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504FD0E243C7195009DA135 /* BlankTabView.swift */; };
+		0504FD11243C7195009DA135 /* BlankTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0504FD0F243C7195009DA135 /* BlankTabView.xib */; };
+		0504FD15243C761C009DA135 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504FD13243C761C009DA135 /* CameraView.swift */; };
+		0504FD16243C761C009DA135 /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0504FD14243C761C009DA135 /* CameraView.xib */; };
+		0504FD1A243C7E9A009DA135 /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504FD18243C7E9A009DA135 /* ImagesView.swift */; };
+		0504FD1B243C7E9A009DA135 /* ImagesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0504FD19243C7E9A009DA135 /* ImagesView.xib */; };
+		0504FD1E243C8516009DA135 /* ImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504FD1C243C8516009DA135 /* ImagesCell.swift */; };
+		0504FD1F243C8516009DA135 /* ImagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0504FD1D243C8516009DA135 /* ImagesCell.xib */; };
+		0504FD21243C8946009DA135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504FD20243C8946009DA135 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0504FCCA243C671B009DA135 /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0504FCCD243C671B009DA135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0504FCCF243C671B009DA135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0504FCD1243C671B009DA135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0504FCD4243C671B009DA135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0504FCD6243C671C009DA135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0504FCD9243C671C009DA135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0504FCDB243C671C009DA135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0504FD0E243C7195009DA135 /* BlankTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankTabView.swift; sourceTree = "<group>"; };
+		0504FD0F243C7195009DA135 /* BlankTabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlankTabView.xib; sourceTree = "<group>"; };
+		0504FD13243C761C009DA135 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		0504FD14243C761C009DA135 /* CameraView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraView.xib; sourceTree = "<group>"; };
+		0504FD18243C7E9A009DA135 /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
+		0504FD19243C7E9A009DA135 /* ImagesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesView.xib; sourceTree = "<group>"; };
+		0504FD1C243C8516009DA135 /* ImagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCell.swift; sourceTree = "<group>"; };
+		0504FD1D243C8516009DA135 /* ImagesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesCell.xib; sourceTree = "<group>"; };
+		0504FD20243C8946009DA135 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +69,52 @@
 			isa = PBXGroup;
 			children = (
 				0504FCCD243C671B009DA135 /* AppDelegate.swift */,
-				0504FCCF243C671B009DA135 /* SceneDelegate.swift */,
-				0504FCD1243C671B009DA135 /* ViewController.swift */,
-				0504FCD3243C671B009DA135 /* Main.storyboard */,
+				0504FD20243C8946009DA135 /* SceneDelegate.swift */,
+				0504FCE1243C6A7F009DA135 /* Controller */,
 				0504FCD6243C671C009DA135 /* Assets.xcassets */,
 				0504FCD8243C671C009DA135 /* LaunchScreen.storyboard */,
 				0504FCDB243C671C009DA135 /* Info.plist */,
 			);
 			path = Camera;
+			sourceTree = "<group>";
+		};
+		0504FCE1243C6A7F009DA135 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0504FD0D243C7185009DA135 /* BlankTabView */,
+				0504FD12243C7614009DA135 /* CameraView */,
+				0504FD17243C7E8D009DA135 /* ImagesView */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0504FD0D243C7185009DA135 /* BlankTabView */ = {
+			isa = PBXGroup;
+			children = (
+				0504FD0E243C7195009DA135 /* BlankTabView.swift */,
+				0504FD0F243C7195009DA135 /* BlankTabView.xib */,
+			);
+			path = BlankTabView;
+			sourceTree = "<group>";
+		};
+		0504FD12243C7614009DA135 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				0504FD13243C761C009DA135 /* CameraView.swift */,
+				0504FD14243C761C009DA135 /* CameraView.xib */,
+			);
+			path = CameraView;
+			sourceTree = "<group>";
+		};
+		0504FD17243C7E8D009DA135 /* ImagesView */ = {
+			isa = PBXGroup;
+			children = (
+				0504FD1C243C8516009DA135 /* ImagesCell.swift */,
+				0504FD1D243C8516009DA135 /* ImagesCell.xib */,
+				0504FD18243C7E9A009DA135 /* ImagesView.swift */,
+				0504FD19243C7E9A009DA135 /* ImagesView.xib */,
+			);
+			path = ImagesView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +175,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0504FD11243C7195009DA135 /* BlankTabView.xib in Resources */,
+				0504FD16243C761C009DA135 /* CameraView.xib in Resources */,
 				0504FCDA243C671C009DA135 /* LaunchScreen.storyboard in Resources */,
+				0504FD1F243C8516009DA135 /* ImagesCell.xib in Resources */,
 				0504FCD7243C671C009DA135 /* Assets.xcassets in Resources */,
-				0504FCD5243C671B009DA135 /* Main.storyboard in Resources */,
+				0504FD1B243C7E9A009DA135 /* ImagesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0504FCD2243C671B009DA135 /* ViewController.swift in Sources */,
+				0504FD1A243C7E9A009DA135 /* ImagesView.swift in Sources */,
+				0504FD1E243C8516009DA135 /* ImagesCell.swift in Sources */,
 				0504FCCE243C671B009DA135 /* AppDelegate.swift in Sources */,
-				0504FCD0243C671B009DA135 /* SceneDelegate.swift in Sources */,
+				0504FD10243C7195009DA135 /* BlankTabView.swift in Sources */,
+				0504FD15243C761C009DA135 /* CameraView.swift in Sources */,
+				0504FD21243C8946009DA135 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0504FCD3243C671B009DA135 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0504FCD4243C671B009DA135 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0504FCD8243C671C009DA135 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,16 +332,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = WLN6QJ47PB;
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.Camera;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdmavani.Camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = All_hdmavani_APP_iOSDev_Profile;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,16 +353,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = WLN6QJ47PB;
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.Camera;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdmavani.Camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = All_hdmavani_APP_iOSDev_Profile;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
